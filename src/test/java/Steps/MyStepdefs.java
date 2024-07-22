@@ -23,6 +23,6 @@ public class MyStepdefs {
 
     @Then("the message should be posted")
     public void theMessageShouldBePosted() {
-        System.out.println("en Executed Successfully");
+        System.out.println("Then Executed Successfully");
     }
 }
