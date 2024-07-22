@@ -1,0 +1,17 @@
+Index: src/test/java/Steps/MyStepdefs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Steps;\r\n\r\nimport io.cucumber.java.en.And;\r\nimport io.cucumber.java.en.Given;\r\nimport io.cucumber.java.en.Then;\r\nimport io.cucumber.java.en.When;\r\n\r\npublic class MyStepdefs {\r\n    @Given(\"User should be logged in and should be present on his wall\")\r\n    public void userShouldBeLoggedInAndShouldBePresentOnHisWall() {\r\n        System.out.println(\"Given Executed Successfully\");\r\n    }\r\n\r\n    @When(\"I type the message in the box\")\r\n    public void iTypeTheMessageInTheBox() {\r\n        System.out.println(\"When Executed Successfully\");\r\n    }\r\n\r\n    @And(\"Click on Post Button\")\r\n    public void clickOnPostButton() {\r\n        System.out.println(\"And Executed Successfully\");\r\n    }\r\n\r\n    @Then(\"the message should be posted\")\r\n    public void theMessageShouldBePosted() {\r\n        System.out.println(\"en Executed Successfully\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/Steps/MyStepdefs.java b/src/test/java/Steps/MyStepdefs.java
+--- a/src/test/java/Steps/MyStepdefs.java	(revision 5b1345c954581105cdf3541e53665a8fb0a7471c)
++++ b/src/test/java/Steps/MyStepdefs.java	(date 1721655557611)
+@@ -24,5 +24,6 @@
+     @Then("the message should be posted")
+     public void theMessageShouldBePosted() {
+         System.out.println("en Executed Successfully");
++
+     }
+ }
